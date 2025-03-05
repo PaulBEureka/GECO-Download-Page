@@ -4,5 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/GECO-Download-Page/', // Use your actual repository name here
   plugins: [react(), tailwindcss()],
 })
