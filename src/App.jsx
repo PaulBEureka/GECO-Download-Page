@@ -1,5 +1,5 @@
-import DownloadButton from "./components/ui/DownloadButton";
 import Navbar from "./components/ui/Navbar";
+import LandingSection from "./components/ui/LandingSection";
 
 
 
@@ -10,15 +10,7 @@ function App() {
       <Navbar />
       
       {/* Sections */}
-      <section id="download" className="h-screen bg-white flex justify-center items-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold">Welcome to GECO</h1>
-          <p className="text-lg mt-2">Your LLM-based compnaion application to help adapt sustainable habits</p>
-          <div className="flex justify-center items-center mt-3">
-            <DownloadButton className="mt-4">Download Now</DownloadButton>
-          </div>
-        </div>
-      </section>
+      <LandingSection/>
 
       <section id="features" className="h-screen bg-black text-white flex justify-center items-center">
         <div className="text-center">
