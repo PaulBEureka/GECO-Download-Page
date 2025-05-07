@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import CircularLogo from "./CircularLogo";
 import gecoLogo from "../../assets/geco_logo.png";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,6 +22,7 @@ const Navbar = () => {
         </button>
 
         <div className="hidden md:flex space-x-6">
+          <ThemeToggle />
           <a href="#download" className="hover:text-gray-200">Download</a>
           <a href="#features" className="hover:text-gray-200">Features</a>
           <a href="#about" className="hover:text-gray-200">About</a>
