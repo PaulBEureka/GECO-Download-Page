@@ -1,5 +1,6 @@
 import Navbar from "./components/ui/Navbar";
 import LandingSection from "./components/ui/LandingSection";
+import FeaturesSection from "./components/ui/FeaturesSection";
 
 
 
@@ -12,11 +13,8 @@ function App() {
       {/* Sections */}
       <LandingSection/>
 
-      <section id="features" className="h-screen bg-black text-white flex justify-center items-center">
-        <div className="text-center">
-          <h2 className="text-3xl font-semibold">Features</h2>
-          <p className="text-lg mt-2">Discover what makes GECO special</p>
-        </div>
+      <section id="features" className="min-h-screen bg-black text-white flex flex-col items-center py-16 px-4">
+        <FeaturesSection />
       </section>
 
       <section id="about" className="h-screen bg-white flex justify-center items-center">

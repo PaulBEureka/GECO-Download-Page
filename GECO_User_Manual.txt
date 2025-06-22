@@ -1,0 +1,427 @@
+﻿Page 
+
+
+
+
+
+
+GECO
+Mobile Application
+User Manual
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+Welcome to the user manual for GECO! This document is intended to provide you with all the information you need to get started with and use the mobile application effectively.
+
+
+What is GECO?
+
+
+GECO, which means Green Efforts on Carbon, is a Large Language Model (LLM) based companion mobile application which aims to help users adapt sustainable habits. It offers a variety of functions focused on promoting sustainability which includes: Sustainable Chat, Sustainable Search, and Weekly Report. Specifically, GECO utilizes a sustainability-tuned Gemini 1.5 Flash model designed to deliver fast and efficient  sustainability focused responses tailored to your needs. Furthermore, its Sustainable search integrates the use of Brave API to allow search engine-like functionality accompanied with GECO’s AI overview, all of which emphasizes sustainability oriented results. Finally, GECO has a monitoring functionality which gathers specific mobile actions. The collected data will then be used to generate a weekly report which you may use to converse with GECO and better evaluate your mobile habits.
+
+
+User System Requirements
+
+
+Device - GECO as of the moment, is only integrated as a mobile application specifically in Android. The application is targeted from Android 6.0 (API 22) up to Android 14. Its core features were tested and proven to work across different Android versions and is responsive towards varying screen sizes.
+
+
+Internet Connection: An active internet connection is required to gain the full experience offered by GECO as all of its core functionalities require the use of Gemini LLM through API. However, as the monitoring feature only gathers local mobile data, its continuous foreground service will not be affected.
+
+
+
+
+Installation
+
+
+1. Go to our website: GECO : Your Sustainable Companion
+2. Take your time to learn more about the application and the team behind it.
+3. Download the APK
+4. Install the application 
+5. Enjoy GECO as your sustainable companion!
+Using GECO
+
+
+The main areas of GECO are labeled below and are described in detail on the following pages.
+  
+
+
+
+
+
+
+
+1. Chat / Add Chat *
+	4. Chat History *
+	2. Search
+	5. Settings
+	3. Weekly Report
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chat
+The Chat feature allows users to initiate conversations with GECO with regards to sustainability. There are three ways you can input your response with GECO.
+
+
+
+
+	Direction
+	1. Message Box
+	This is where you input your message to GECO
+	2. Initial Prompt
+	Four initial prompt buttons to start your conversation
+	3. Speech-to-text
+	Press and speak to convert your speech into text
+	4. Submit Button
+	Once the input is set, press this to submit
+	
+
+  
+
+After submitting your input, GECO will respond based on what you asked in a sustainable way. All conversations will then be recorded in the Chat History. 
+Chat History *
+This is where your stored conversations go whenever you start another chat conversation. Chat History can be seen in the top left corner of the application (≡) below the Weekly Report Tab. This section will not be available unless you have past conversations with GECO.
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add Chat *
+This feature allows the user to create another conversation. You can navigate to this  feature by tapping the (≡) icon on the top left corner and tapping the (+) Chat button. This feature will work if you have already had past conversations with GECO.
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+The Search feature allows users to browse among GECO’s search engine that integrates Gemini’s API for the AI Overview and Brave Search API to generate sustainable results. This can be located by tapping the top left corner and pressing the Search tab.
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+	Direction
+	1. Search Box
+	Your Search prompt goes here
+	2. Initial Prompt
+	Similar to the chat feature, You may choose these as a starting option
+	3. Speech-to-Text
+	Press to convert your speech into text
+	4. Search Button
+	Once the input is set, press this to submit
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sample Prompt from Search
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Monitor
+The Monitor feature in the GECO app is designed to help users adopt more sustainable and mindful habits while using their devices. Each action, such as charging, browsing, or connecting to mobile data, will trigger notifications that will inform the user about their unsustainable habit.
+
+
+Action
+	Trigger Description
+	  
+
+Charging
+	Will inform the user on the appropriate charging conditions.
+	  
+
+Using the device in general
+	Will suggest actions such as reduced screen usage and mindful usage.
+	  
+
+Connection to mobile data or Wi-Fi
+	Will suggest related sustainable actions such as reduced data usage, using Wi-Fi, if possible, etc.
+	  
+
+Use of Location Services
+	Will suggest turning off or limiting the use of location services.
+	  
+
+Searching in browser
+	Will try to motivate the user to use the sustainable search engine within the app.
+	
+
+
+
+
+
+
+
+Settings
+The GECO settings feature allows users to delete their conversation history and weekly reports, switch to a different color scheme, and enable notifications along with habit monitoring on their device.
+
+
+  
+
+	  
+
+	
+
+
+
+
+
+
+
+Clear History
+This option allows users to delete all their conversation history, ensuring privacy and freeing up space.
+
+
+  
+
+
+
+Clear Weekly Reports
+Users can remove their weekly reports, which is useful for maintaining a clean and organized record.
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Dark Mode
+This feature changes the user interface to a darker color scheme, reducing eye strain and improving visibility in low-light conditions.
+
+
+  
+
+	  
+
+	
+
+Monitor Habits
+The monitor habits feature actively monitors users’ mobile habits through action triggers set in GECO which detects unsustainable activity, helping users understand their daily routines.
+
+
+  
+
+	  
+
+	  
+
+	  
+
+	
+
+Notifications
+Users can enable notifications to receive timely reminders and updates about their habits, ensuring they stay on track with their goals.
+
+
+
+
+  
+
+	  
+
+	
+
+
+
+
+
+Troubleshooting
+Unresponsive Chat: 
+* Possible Causes: The Gemini model may be overloaded at the moment.
+
+
+User interface Glitches:
+* Possible Causes: The user could possibly be interacting with the UI too fast, or it could also be a problem in the framework used due to its stability issues in the UI.
+Microphone not supported:
+* Possible Causes: Your device may not support the necessary tools installed to support the microphone feature.
+
+
+Weekly Report not showing:
+* Possible Causes: The Gemini model may be overloaded at the moment, or the records may lack data because the user has been inactive or does not use the phone daily.
+
+
+Trigger Notifications not appearing:
+* Possible Causes: The Gemini model may be overloaded at the moment, or the user may not have met the specific conditions for the trigger to execute.
+Contacting Support
+Should you have any technical difficulties or concerns with GECO, please do not hesitate to reach out to our dedicated support team for prompt and personalized assistance. Below are contacts that you may reach out to:
+
+
+2021pcbataga@live.mcl.edu.ph
+2021cjalmeron@live.mcl.edu.ph
+2021asdiomampo@live.mcl.edu.ph
+2021jmrtolentino@live.mcl.edu.ph
