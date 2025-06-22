@@ -52,10 +52,10 @@ export default function FeaturesSection() {
         {features.map((feature, idx) => (
           <div
             key={idx}
-            className="bg-gray-900 rounded-lg shadow-lg p-6 border border-gray-700 text-left"
+            className="bg-white dark:bg-gray-900 rounded-lg shadow-lg p-6 border border-gray-200 dark:border-gray-700 text-left"
           >
-            <h3 className="text-xl font-bold mb-2 text-green-400">{feature.title}</h3>
-            <p className="text-gray-200">{feature.description}</p>
+            <h3 className="text-xl font-bold mb-2 text-green-700 dark:text-green-400">{feature.title}</h3>
+            <p className="text-gray-700 dark:text-gray-200">{feature.description}</p>
           </div>
         ))}
       </div>
